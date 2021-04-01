@@ -85,6 +85,10 @@ int main(int argc, char *argv[])
 	shuffleArray(v, LA(v));
 	//printArray(v, LA(v));
 
+	shuffleArray(n2, LA(n2));
+	shuffleArray(n3, LA(n3));
+	shuffleArray(n4, LA(n4));
+
 	printf("%s是%s%s，%s行业%s。"\
 		   "%s是%s%s%s，通过%s和%s达到%s。"\
 		   "%s是在%s采用%s打法达成%s。"\
